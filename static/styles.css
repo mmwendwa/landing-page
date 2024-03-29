@@ -1,0 +1,88 @@
+/* Example styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url('binary_background.png'); /* Background image URL */
+    background-repeat: repeat;
+    animation: animateBackground 10s linear infinite; /* Animation for moving background */
+}
+
+@keyframes animateBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right; /* Align content right horizontally */
+    
+}
+
+
+.header-title {
+    text-align: center; /* Center the title */
+    color: aqua;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from anchor elements */
+    color: aqua; /* Set link color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+.content {
+    padding: 20px;
+    max-width: 800px; /* Set maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+footer {
+   /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.contact-list li i {
+    margin-right: 10px; /* Add space between icon and text */
+}
+
+.contact-list li span {
+    font-weight: bold;
+    margin-right: 5px; /* Add space between span and text */
+}
