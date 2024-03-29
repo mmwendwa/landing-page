@@ -9,14 +9,15 @@ body {
     animation: animateBackground 10s linear infinite; /* Animation for moving background */
 }
 
+/* Define the animation */
 @keyframes animateBackground {
-    from {
-        background-position: 0 0;
+    0% {
+      background-position: 0 0;
     }
-    to {
-        background-position: 100% 100%;
+    100% {
+      background-position: 0 100%;
     }
-}
+  }
 
 header {
     background-color: #333;
